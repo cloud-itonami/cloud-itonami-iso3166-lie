@@ -1,0 +1,13 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:url "https://en.wikipedia.org/wiki/K%C3%A4sesp%C3%A4tzle", :id "lie.dish.kaesespaetzle", :kind :dish, :name-local "Käsknöpfle", :country "LIE", :retrieved-at "2026-07-17", :summary "Cheese-noodle dish traditional to Swabia, Vorarlberg, Tyrol, Liechtenstein and Switzerland; in Liechtenstein it is usually served with apple sauce.", :name "Käsespätzle", :url-provenance :wikipedia-en}
+#:culture{:id "lie.dish.hafalaab", :name "Hafalaab", :country "LIE", :kind :dish, :summary "Soup with ham or bacon and cornmeal dumplings, part of Liechtensteiner cuisine.", :url "https://en.wikipedia.org/wiki/Liechtenstein_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "lie.dish.torkarebl", :name "Torkarebl", :country "LIE", :kind :dish, :summary "Porridge dish resembling dumplings, part of Liechtensteiner cuisine.", :url "https://en.wikipedia.org/wiki/Liechtenstein_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "lie.product.saukerkas", :name "Saukerkas", :country "LIE", :kind :product, :summary "Cheese produced in Liechtenstein, named in accounts of Liechtensteiner cuisine.", :url "https://en.wikipedia.org/wiki/Liechtenstein_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Liechtenstein_National_Day", :id "lie.festival.national-day", :kind :festival, :name-local "Staatsfeiertag", :country "LIE", :retrieved-at "2026-07-17", :summary "Celebrated annually on 15 August with a ceremony outside Vaduz Castle, a folk festival in Vaduz and fireworks; jointly celebrates the Assumption of Mary and the country's independence.", :name "Liechtenstein National Day", :url-provenance :wikipedia-en}
+#:culture{:url "https://en.wikipedia.org/wiki/Vaduz_Castle", :id "lie.heritage.vaduz-castle", :kind :heritage, :name-local "Schloss Vaduz", :country "LIE", :retrieved-at "2026-07-17", :summary "Hilltop castle begun in the 12th century overlooking the capital; official residence of the Prince of Liechtenstein and primary residence of the princely family since 1938.", :name "Vaduz Castle", :url-provenance :wikipedia-en}
+]
